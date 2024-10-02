@@ -1,0 +1,988 @@
+*{
+    font-family: sans-serif;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#header-id{
+    background-color: rgb(0, 0, 0);    
+    box-sizing: border-box;
+}
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.m-header-navlink{
+    height: 44px;
+    color: rgb(199, 199, 199);
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75vw;
+}
+.m-header-navlink li:hover{
+    color: white;
+    cursor: pointer
+}
+.media-screen-header{
+    width: 100%;    
+    box-sizing: border-box;
+    color: white;
+    display: none;    
+}
+
+
+.media-screen-header ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px ;
+    box-sizing: border-box;
+    
+
+}
+#timesli{
+    display: none;
+}
+
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#menu-Navlink{
+    box-sizing: border-box;
+}
+
+#menu-Navlink form{
+    display:flex;
+    margin-bottom: 5px;    
+}
+.mag-icon{
+    color: rgb(121, 118, 118);
+   position: relative;
+    left: 29px;
+    top: 18px;
+}
+#menu-Navlink input{
+    height: 38px;
+    width: 70vw;
+    padding-left: 33px;
+    border-radius: 10px;
+    outline: 0; 
+    border: 0; 
+    box-shadow: 0;
+    font-size: 17px;
+    margin-top: 10px;
+    background-color: rgb(54, 54, 54);
+    color: rgb(121, 118, 118);
+    font-weight: 500;
+}
+.hr-1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    opacity: 0.5;
+    width: 100%;
+    
+}
+/* sub-nav unordered list */
+#menu-Navlink{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.menu-navlink{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   
+}
+.menu-ul{
+    color: rgb(185, 185, 185);
+    width: 75vw;
+    font-size: 17px;
+    font-weight: 100;
+    font-style: italic;  
+}
+
+.menu-ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+.menuhr-2{
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    opacity: 0.5;
+    margin: 15px 0;
+    padding: 0;
+}
+.hr-2{
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    opacity: 0.5;
+    margin: 0;
+    padding: 0;
+}
+
+.iphone-14-pro{
+    height: 600px;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.text-section{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: 30px;
+}
+.headlines{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.title {
+    font-size: 50px;
+    font-weight: 700;
+}
+.buy-learn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    color: blue;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.learn, .buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.learn:hover, .buy:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.iphone-14pro-image{
+    background-image: url('./images/hero_iphone14pro_large.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+.iphone-14{
+    height: 550px;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.iphone-14-headline{
+    color:#222;
+    display: flex;
+    flex-direction: column;
+}
+.i14big{
+    font-size: 24px;
+    
+}
+.iphone-14-headline .plus-text {
+    color: gray;
+    font-size: 23px;
+    margin-top: 5px;
+}
+.iphone14-image{
+    background-image: url('./images/hero_iphone14_preorder_large.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+
+}
+
+.apple-watch{
+    height: 500px;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.apple-watch-text{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    top: 30px;
+}
+.watch-headline{
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.watch-headline h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.watch-apple-icon{
+    width: 50px;
+    height: 50px;
+    color: #c7c7c7;
+}
+.adventure{
+    font-size: 25px;
+    
+}
+.watch-image{
+    background-image: url('./images/hero_apple_watch_ultra_large.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 50% -10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+.iphone14-image{
+    background-image: url('./images/hero_iphone14_preorder_large.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+
+}
+
+
+.multi-grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 2fr);
+    gap: 10px;
+    box-sizing: border-box;
+    margin: 0 10px 0 10px;
+}
+.airpods-wrapper{
+    position: relative;
+    height: 550px;
+}
+.airpod-text{
+    color: white;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    top: 35px;
+    font-size: 23px;
+}
+.airpods-headline h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.airpod-image{
+    background-image: url('./images/promo_airpods_pro_avail_large.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+.watchOs{
+    position: relative;
+    height: 550px; 
+}
+
+
+.watchOS-headline{
+    width: 100%;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.watchOS-headline h1{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watchOS-image{
+    background-image: url('./images/promo_apple_watch_series_8_large.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+.airpod-image{
+    background-image: url('./images/promo_airpods_pro_avail_large.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+
+.watchSE{
+    position: relative;
+    height: 550px; 
+}
+
+.watch-text{
+    color: #222;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 30px;
+    font-size: 20px;
+}
+
+.watchSE-headline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.watchSE-headline h1{
+    
+    
+
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+.watchSE-image{
+    background-image: url('./images/promo_apple_watch_se_large.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+
+.fitness{
+    position: relative;
+    height: 550px; 
+}
+.fitness-text{
+    color: #222;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 20px;
+}
+.fitness-headline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fitness-headline h1{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.fitness-image{
+    background-image: url('./images/promo-apple-fitness-plus-iphone_large.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+
+.availability-container{
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 30px;
+}
+.availability{
+   display: flex;
+   justify-content: center;
+   color: #6e6e73;
+}
+.macbook-air{
+    position: relative;
+    height: 550px; 
+}
+
+.mac-text{
+    position: absolute;
+    z-index: 2;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    color: #222;
+}
+.macbook-headline{
+    text-align: center;
+}
+.macbook-headline h1{
+    font-size: 40px;
+}
+.macbook-image{
+    background-image: url('./images/promo_macbookair_large.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+
+.card{
+    position: relative;
+    height: 550px;  
+}
+.apple-card1{
+    width: 40px;
+    height: 40px;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.card-text{
+    position: absolute;
+    z-index: 2;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    color: #222;
+}
+.card-headline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-headline h1{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card-image{
+    background-image: url('./images/tile_large.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+
+
+.footer-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 140px;
+    box-sizing: border-box;
+    background-color: #f5f5f7;
+    color: #6e6e73;
+    
+}
+.sec-1 .text-li{
+    font-size: 12px;
+}
+.sec-1 .text-li li{
+    padding: 10px 0 0 0 ;
+}
+.support-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hr-2{
+    width: 100%;
+    background-color:#6e6e73 ;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.sec-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.sec-2 span{
+    font-weight: 510;
+    font-size: 11px;
+    color: #222;
+}
+#shop-ul ul li,#service-ul ul li,#account-ul ul li,#business-ul ul li,#education-ul ul li,#healthcare-ul ul li,#government-ul ul li,#value-ul ul li,#about-ul ul li{
+    padding: 8px 0 0 0;
+    width: max-content;
+}
+#shop-ul ul li:hover,#service-ul ul li:hover,#account-ul ul li:hover,#business-ul ul li:hover,#education-ul ul li:hover,#healthcare-ul ul li:hover,#government-ul ul li:hover,#value-ul ul li:hover,#about-ul ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.education-sec, .healthcare-sec,.government-sec,.account-sec,.about-sec{
+    margin-top: 20px;
+}
+.caps{
+    color:#222;
+    font-weight: 650;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.caps:hover{
+    text-decoration: none;
+    cursor: initial;
+}
+.sec-3{
+    font-size: 13px;
+    align-self: flex-start;
+}
+.find-apple, .retailer{
+    color: #06c;
+}
+.find-apple:hover, .retailer:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hr-sec4{
+    margin-bottom: 5px;
+}
+.sec-4{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 12px;
+    gap: 5px;
+}
+.privacy-term-sale-legal-site{
+    display: flex;
+    justify-content: space-between;
+}
+.privacy, .terms,.sales,.legal,.site{
+    display: flex;
+    font-weight: 505;
+    width: max-content;
+}
+.hr-3{   
+    width: 1px;
+    outline: 0;
+    height: 100%;
+    margin: 0 5px 0 5px;
+    background-color: rgb(179, 174, 174);
+    border: none;
+    opacity: 0.5;    
+}
+#times1,#times2,#times3,#times4,#times5,#times6,#times7,#times8,#times9{
+    display: none;
+}
+ #plus1,#plus2,#plus3,#plus4,#plus5,#plus6,#plus7,#plus8,#plus9{
+    display: none;
+    }
+    .footer-hr{
+        display: none;
+        margin: 5px 0;
+    }
+@media screen and (max-width: 1100px) {
+    .m-header-navlink{
+        width: 85vw;
+       
+
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .m-header-navlink{
+        width: 95vw;
+        
+
+    }
+    .iphone-14pro-image{
+        background-image: url('./images/hero_iphone14pro_mediumtall.jpg');
+    }
+    .watch-image{
+        background-image: url('./images/hero_apple_watch_ultra_mediumtall.jpg');
+       
+    }
+    .iphone14-image{
+        background-image: url('./images/hero_iphone14_preorder_medium.jpg');
+        
+    }
+    .watchOS-image{
+        background-image: url('./images/promo_apple_watch_series_8_small.jpg');
+        
+    }
+    .footer-section{
+        padding: 10px 70px;
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+    .m-header-navlink{
+        display: none;
+    }
+
+    .media-screen-header{
+        display: block;
+    }
+
+    .card-image{
+        background-image: url('./images/tile_small.jpg');
+        background-position-y: -55px;
+    }
+
+    .footer-section{
+        padding: 10px;
+    }
+
+    .sec-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: space-between;
+        margin: 0;
+    }
+
+    .sec-2 span{
+        color: inherit;
+    }
+    
+    .shop{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        width: 100%;
+    }
+   
+    #title-caps1,#title-caps2,#title-caps3,#title-caps4,#title-caps5,#title-caps6,#title-caps7,#title-caps8,#title-caps9{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        color: #6e6e73;
+    }
+    
+    #title-caps1:hover,#title-caps2:hover,#title-caps3:hover,#title-caps4:hover,#title-caps5:hover,#title-caps6:hover,#title-caps7:hover,#title-caps8:hover,#title-caps9:hover{
+        color: black;
+        cursor: pointer;
+    }
+
+    .service-account,.bus-edu-heal-gov,.value-about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .service-sec, .account-sec,.business-sec,.education-sec,.healthcare-sec,.government-sec,.value-sec,.about-sec{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    #shop-ul,#service-ul,#account-ul,#business-ul,#education-ul,#healthcare-ul,#government-ul,#values-ul,#about-ul{
+        display: none;
+        padding: 10px 10px 10px 20px;
+    }
+
+    #shop-ul li,#service-ul li,#account-ul li,#business-ul li,#education-ul li,#healthcare-ul li,#government-ul li,#values-ul li,#about-ul li{
+        padding: 8px 0 0 0;
+        width: max-content;
+    }
+    #shop-ul li:hover,#service-ul li:hover,#account-ul li:hover,#business-ul li:hover,#education-ul li:hover,#healthcare-ul li:hover,#government-ul li:hover,#values-ul li:hover,#about-ul li:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+   
+    .education-sec, .healthcare-sec,.government-sec,.account-sec,.about-sec{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .footer-hr{
+        display: block;
+        margin: 5px 0;
+    }
+
+  #plus1,#plus2,#plus3,#plus4,#plus5,#plus6,#plus7,#plus8,#plus9{
+        display: block;       
+    }
+    
+    
+    
+   
+}
+
+@media screen and (max-width: 700px) {
+    .buy-learn{
+        font-size: 17px;
+        margin-top: 15px;
+        width: 170px;
+    }
+
+    .iphone-14-pro{
+        height: 500px;
+    }
+
+    .headlines{
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+    .iphone-14{
+        height: 450px;
+    }
+    
+    .i14big{
+        font-size: 20px;    
+    }
+
+    .iphone-14-headline .plus-text{
+        font-size: 17px;
+    }
+    
+    .iphone-14pro-image{
+        background-image: url('./images/hero_iphone14pro_small.jpg');
+        background-size: cover;
+    }
+    
+    .adventure{
+        font-size: 20px;
+    }
+
+    .watch-headline{
+        color: #222;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    .watch-headline h1{
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .watch-image{
+        background-image: url('./images/hero_apple_watch_ultra_small.jpg');
+        background-size: cover;
+       
+    }
+
+    .iphone14-image{
+        background-image: url('./images/hero_iphone14_preorder_small.jpg');
+        background-size: cover;
+    
+    }
+
+
+    /* multi grid section */
+    .multi-grid-wrapper{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin: 0 10px 0 10px;
+    }
+
+    .macbook-image{
+        background-image: url('./images/promo_macbookair_small.png');        
+    }
+
+    .fitness-text{
+        font-size: 17px;
+        top: 30px;
+    }
+
+    .fitness-image{
+        background-image: url('./images/promo-apple-fitness-plus-iphone_small.jpg');
+    }
+
+    .availability-container{
+        bottom: 10px;
+        font-size: 14px;
+    }
+    
+    .watchSE-headline h1{
+        font-size: 30px;
+    }
+    .watchSE{       
+        height: 400px; 
+    }
+    .watchSE-image{
+        background-image: url('./images/promo_apple_watch_se_small.jpg');
+       
+    }
+    
+    .airpod-image{
+        background-image: url('./images/promo_airpods_pro_avail_large.jpg');   
+    }
+    
+    .airpods-wrapper{
+        height: 450px;
+    }
+
+    .airpods-headline h1{
+        font-size: 30px;
+    }
+
+    .airpod-text{
+        font-size: 17px;
+    }
+
+    .watchOs{
+        height: 450px; 
+    }
+    
+    .watchSE{
+        height: 450px; 
+    }
+    
+    .watchSE-headline h1{
+        font-size: 30px;        
+    }
+    
+    .watch-text{
+        top: 30px;
+        font-size: 17px;
+    }
+    
+    .macbook-headline h1{
+        font-size: 30px;
+    }
+    
+    .macbook-air{
+        height: 450px; 
+    }
+
+    .card-text{
+       font-size: 17px;
+    }
+
+    .card{
+        position: relative;
+        height: 400px; 
+    }
+
+    .fitness{
+        
+        height: 450px; 
+    }
+
+    .sec-4{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+
+    .privacy-term-sale-legal-site{
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .privacy, .terms,.sales,.legal,.site{
+        width: max-content;
+    }
+}
+
+#small-image{
+    display: none;
+}
